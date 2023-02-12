@@ -27,6 +27,13 @@ button {
     border: none;
     font-family: 'Lexend Deca', sans-serif;
     mix-blend-mode: screen;
+    cursor: pointer;
+}
+
+button:hover {
+    color: hsl(0, 0%, 95%);
+    background-color: transparent;
+    border: 0.125rem solid hsl(0, 0%, 100%);
 }
 
 .card-container {
