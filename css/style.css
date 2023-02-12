@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(0, 0%, 95%);
+    min-height: 100vh;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+}
+
+button {
+    border: none;
+    font-family: 'Lexend Deca', sans-serif;
+    mix-blend-mode: screen;
+}
+
+.card-container {
+    display: flex;
+    width: 57.5rem;
+    height: 31.3rem;
+    margin-top: 3.58rem;
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
+
+.card-content {
+    padding: 3rem;
+    width: 100%;
+}
+
+.title-sedan,
+.title-suv,
+.title-lux {
+    font-size: 2.45rem;
+    margin-top: 0.65rem;
+    letter-spacing: .016rem;
+}
+
+.img-sedan,
+.img-suv,
+.img-lux {
+    margin-bottom: 20px;
+}
+
+.desc-sedan {
+    font-size: 15px;
+    margin-top: 1.8rem;
+    line-height: 1.55rem;
+}
+
+.desc-suv {
+    font-size: 15px;
+    margin-top: 1.8rem;
+    line-height: 1.66;
+}
+
+.desc-lux {
+    font-size: 15px;
+    margin-top: 1.79rem;
+    line-height: 1.55rem;
+}
+
+.button-sedan {
+    width: 9.1rem;
+    margin-top: 5.195rem;
+    height: 2.95rem;
+    border-radius: 2rem;
+}
+
+.button-suv {
+    width: 9.1rem;
+    margin-top: 5.17rem;
+    height: 2.95rem;
+    border-radius: 2rem;
+}
+
+.button-lux {
+    width: 9.1rem;
+    margin-top: 5.2rem;
+    height: 2.95rem;
+    border-radius: 2rem;
+}
+
+.card-orange {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.card-cyan {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.card-dark-cyan {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.attribution {
+    font-size: 13px;
+    color: hsl(184, 100%, 22%);
+    text-align: center;
+}
+
+@media screen and (max-width: 375px) {
+    main {
+        margin: 1.9rem 0;
+    }
+
+    .card-container {
+        height: 100%;
+        flex-direction: column;
+        width: 20.4rem;
+    }
+
+    .card-content {
+        padding: 2.5rem;
+    }
+
+    .card-info {
+        margin-left: 0.55rem;
+    }
+
+
+    .img-sedan,
+    .img-suv,
+    .img-lux {
+        margin-top: 0.5rem;
+        margin-left: 0.55rem;
+    }
+
+    .button-sedan,
+    .button-suv,
+    .button-lux {
+        margin-top: 1.54rem;
+        margin-bottom: 0.5rem;
+        letter-spacing: .06rem;
+    }
+}
